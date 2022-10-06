@@ -42,9 +42,54 @@ body{
     font-size: 1.3rem;
     border: none;
     border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .button button:hover {
     cursor: pointer;
     background-color: rgb(201, 201, 201);
 }
+
+
+/* .adult {
+    display: flex;
+    flex-direction: ;
+} */
+
+.adult h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.toggle {
+    width: 40px;
+    background-color: white;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    margin: auto;
+}
+
+#toggle-button {
+    height: 100%;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(53, 53, 53);
+    border: none;
+    position: absolute;
+    right: 0%;
+}
+
+#toggle-button:hover {
+    cursor: pointer;
+}
+
+.on {
+    left: 0%;
+}
+
+
+
+
+

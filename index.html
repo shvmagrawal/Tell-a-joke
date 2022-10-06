@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div id="joke" class="tellme"></div>
         <div class="button">
             <button onclick="another()">Tell me another joke</button>
         </div>
+        <div class="adult">
+            <h2>Toggle this to see an adult joke.</h2>
+            <div class="toggle" onclick="toggleJokes()">
+                <button id="toggle-button" class="on"></button>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
