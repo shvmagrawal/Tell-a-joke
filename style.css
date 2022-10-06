@@ -89,7 +89,24 @@ body{
     left: 0%;
 }
 
+@media screen and (max-width: 400px) {
+    .container {
+        width: 260px;
+    }
+    
+    #joke {
+        min-height: 180px;
+        font-size: 1.4rem;
+    }
 
+    .button button {
+        font-size: 1.1rem;
+    }
+
+    .adult h2 {
+        font-size: 1.3rem;
+    }
+  }
 
 
 
